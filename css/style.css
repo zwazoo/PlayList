@@ -1,0 +1,73 @@
+body{
+background: url(../img/background.jpg) no-repeat fixed;
+background-size: cover;
+color: #a4a3a9;
+font: 300 16px/1.2 "Roboto", sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.ba-playlist{
+    background: #fff;
+    max-width: 475px;
+    margin:70px auto;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+    padding: 20px;
+    border-radius: 20px;             
+}
+
+.ba-playlist h1 {
+	text-align: center;
+	font-weight: 600;
+	margin: 0 0 25px;
+	font-size:21px;
+	color:#574d72;
+}
+
+.ba-playlist-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ba-track{
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    padding-top: 10px;
+	overflow: hidden;
+	text-transform: capitalize;
+}
+
+.ba-track__inf{
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.ba-track__name{
+    margin: 0;
+    color: #574d72;
+}
+
+.ba-track__duration{ 
+	padding-right: 15px;
+	border-right:1px solid;
+}
+
+.ba-track__author {
+	margin-left: 10px;
+}
+
+.ba-tune__like{
+    width: 25px;
+    height: auto;
+	float: right;
+	margin-top: 10px;
+}
+
+.ba-tune__like:hover {
+	fill:red;
+}
