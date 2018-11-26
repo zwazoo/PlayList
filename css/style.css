@@ -2,7 +2,7 @@ body{
 background: url(../img/background.jpg) no-repeat fixed;
 background-size: cover;
 color: #a4a3a9;
-font: 300 16px/1.2 "Roboto", sans-serif;
+font: 300 13px/1.2 "Roboto", sans-serif;
 }
 
 /* Layout */
@@ -13,8 +13,8 @@ font: 300 16px/1.2 "Roboto", sans-serif;
 
 .ba-playlist{
     background: #fff;
-    max-width: 475px;
-    margin:70px auto;
+    max-width: 430px;
+    margin:50px auto;
     box-shadow: 0 0 3px rgba(0,0,0,.5);
     padding: 20px;
     border-radius: 20px;             
@@ -36,7 +36,7 @@ font: 300 16px/1.2 "Roboto", sans-serif;
 
 .ba-track{
     border-top: 1px solid #ccc;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-top: 10px;
 	overflow: hidden;
 	text-transform: capitalize;
